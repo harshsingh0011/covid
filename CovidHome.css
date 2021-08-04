@@ -1,0 +1,173 @@
+﻿
+* {  /*universal tag*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main { /*define the page properties*/
+    width: 75%;
+    margin: 50px auto;
+    border: 1px solid black;
+    display: grid; /*Grid Layout */
+    grid-template-rows: 130px 30px 50px 100px 400px 60px; /*Setting 6 Rows*/
+    grid-template-columns: repeat(3,1fr) 150px; /*Setting 4 columns*/
+    grid-gap: 5px; /*Grid Gap*/
+}
+body { /*define the page Background*/
+    background-image: url("676551.jpg");
+}
+
+.header { /*header sytle for setting header background color*/
+    background-color: black;
+    grid-column: 1/-1; /*Collspan all Coloumn in a row*/
+}
+
+.nav {
+    grid-column: 1/-1;
+}
+
+.div2 { /*navigation bar*/
+    background-color: #f7f9fe;
+    border-top: 5px solid blue;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 5px 10px;
+}
+
+.div3 { 
+    background-color: #f7f9fe;
+    border-top: 5px solid green;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 5px 10px;
+}
+
+.div4 {
+    background-color: #f7f9fe;
+    border-top: 5px solid red;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 5px 10px; /*Shadow*/
+}
+
+.div5 {
+    background-color: #b6ff00;
+    grid-row: 4/6; /*Rowspan*/
+    grid-column: 4/5; /*Collspan*/
+    background-color: white;
+}
+
+.div6 {
+    background-color: white; /*Setting Bg color*/
+    grid-column: 1/2;
+}
+
+.div7 {
+    margin-left: 20px;
+    grid-column: 2/4;
+   
+}
+
+.div8 {
+    grid-column: 1/-1;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: black;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.logo { /*Setting logo style*/
+    padding: 5px;
+    height: 130px;
+    width: auto;
+}
+
+.sitename { /*Setting Site Name style*/
+    display: inline; /*dispaly inlineing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Defining font*/
+    vertical-align: central;
+    color: white;
+    position: relative; /*defining positioning as relative*/
+    top: -40px;
+    padding-left: 20px;
+}
+
+
+
+ul { /*unordered list style for navigation bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li { /*floating left to list*/
+    float: left;
+}
+
+    li a { /*changing default properties of list*/
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover { /*hover color change*/
+            background-color: #111;
+        }
+
+.img { /*img propertity setting*/
+    max-width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+    .div6:hover {  
+             filter: grayscale(100%);
+    }
+
+.covidstaustitle {   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.numberpatients {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+h5 {
+    color: lightslategrey;
+}
+
+h2 {
+    color: tomato;
+}
+
+.aboutcorona {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1 {
+    padding: 10px 0px 15px 0px;
+}
+
+
+
+
+
+
